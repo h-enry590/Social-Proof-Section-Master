@@ -1,0 +1,183 @@
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+}
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 1160px;
+  height: 560px;
+  margin: 100px 150px 100px 150px;
+  box-shadow: 5px 2px 5px 5px hsl(300, 2%, 81%);
+}
+.header-1 {
+  display: flex;
+  gap: 17rem;
+}
+.head-1 {
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.para-1 {
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+  margin-top: 20px;
+}
+.all-rates {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.rates {
+  gap: 5rem;
+}
+.r-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 400px;
+  height: 25px;
+  border: none;
+  padding: 10px;
+  margin-top: 80px;
+  border-radius: 5px;
+  background-color: hsl(300, 25%, 96%);
+}
+.r-2 {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 450px;
+  height: 25px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+}
+.r-3 {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 450px;
+  height: 25px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.para-2 {
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(300, 43%, 22%);
+  margin: 0px;
+}
+
+.img-text-1 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: center;
+  margin-right: 90px;
+  margin-bottom: 15px;
+}
+.my-image {
+  border-radius: 2em;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.describe {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  color: hsl(333, 80%, 67%);
+  font-weight: 500;
+  font-size: 15px;
+}
+.call-1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.boxes {
+  display: flex;
+  gap: 2em;
+}
+.box-1 {
+  width: 320px;
+  height: 180px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  font-weight: 500;
+  font-size: 15px;
+}
+.box-2 {
+  width: 320px;
+  height: 180px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.box-3 {
+  width: 320px;
+  height: 180px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 15px;
+}
+@media (width: 1160px) {
+  .card {
+    width: 1440;
+  }
+}
+@media (width: 1160px) {
+  .card {
+    width: 375px;
+  }
+}
